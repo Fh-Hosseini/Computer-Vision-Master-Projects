@@ -7,7 +7,9 @@
 
 # Python
 __pycache__/
+*.py[codz]
 *.pyc
+*.so
 
 # Data files
 *.mat
@@ -22,9 +24,18 @@ __pycache__/
 results/
 data/
 
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
 # Folders to ignore for now
 ex2_DemosaicingHDR/
 ex3_WriterIdentificationRetrieval/
-ex4_FaceRecognition/
-ex5/
-ex5_ObjectDetection/
+ex4
