@@ -1,0 +1,7 @@
+*.CR3
+*.npy
+*.JPG
+*.CR2
+res/
+__pycache__/
+.ipynb_checkpoints/
